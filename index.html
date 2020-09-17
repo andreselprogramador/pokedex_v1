@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>PokePoke</title>
+</head>
+<body>
+    <div class="app_container">
+
+        <header>
+            <h1><a href="/">PokePoke</a></h1>
+        </header>
+
+        <div class="search_container">
+            <div class="search">
+                <input type="text" placeholder="Busca por nombre o número">
+                <button>Buscar</button>
+            </div>
+        </div>
+
+        <main>
+            <div class="alert_pokemon">
+                <div class="btn_cancel" id="btnCancel">X</div>
+                <div class="pokemon_info desaparecer" id="divPokemones">
+
+                </div>
+            </div>
+        </main>
+
+        <a href="#" id="btn">Load more</a>
+
+        <main class="pokemon">
+        </main>
+
+    </div>
+    <script src="scripts/main.js" type="module"></script>
+</body>
+</html>
